@@ -1,5 +1,3 @@
-package io.educative.mediaapp.model;
-
 import java.math.BigInteger;
 import java.util.Date;
 
