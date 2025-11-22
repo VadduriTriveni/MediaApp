@@ -1,18 +1,9 @@
-package io.educative.mediaapp.service;
-
 import java.math.BigInteger;
 import java.util.Date;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import io.educative.mediaapp.database.PlaylistRepository;
-import io.educative.mediaapp.database.SongsRepository;
-import io.educative.mediaapp.exception.PlaylistNotFoundException;
-import io.educative.mediaapp.exception.SongNotFoundException;
-import io.educative.mediaapp.model.Playlist;
-import io.educative.mediaapp.model.Song;
 
 @Service("playlistService")
 public class PlaylistService {
