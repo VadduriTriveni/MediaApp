@@ -1,10 +1,7 @@
-package io.educative.mediaapp.exception;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import io.educative.mediaapp.model.ErrorCodes;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
