@@ -1,5 +1,3 @@
-package io.educative.mediaapp.model;
-
 public enum ErrorCodes {
 
 	PLAYLIST_NOT_FOUND(1001),
