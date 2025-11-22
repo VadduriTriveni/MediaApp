@@ -1,5 +1,3 @@
-package io.educative.mediaapp.exception;
-
 import java.math.BigInteger;
 
 @SuppressWarnings("serial")
