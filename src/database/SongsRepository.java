@@ -1,5 +1,3 @@
-package io.educative.mediaapp.database;
-
 import java.math.BigInteger;
 import java.util.Collection;
 import java.util.Optional;
@@ -8,8 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.transaction.annotation.Transactional;
-
-import io.educative.mediaapp.model.Song;
 
 public interface SongsRepository extends JpaRepository<Song, BigInteger> {
 
